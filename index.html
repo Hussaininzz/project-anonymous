@@ -1,0 +1,108 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mining Section</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            font-family: 'Orbitron', sans-serif;
+            color: #ffffff;
+            text-align: center;
+            overflow: hidden;
+        }h1 {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+        color: #00d4ff;
+        text-shadow: 0 0 15px #00d4ff, 0 0 30px #007acc;
+    }
+
+    .button-container {
+        display: flex;
+        gap: 2rem;
+    }
+
+    button {
+        background: #1a75ff;
+        border: none;
+        border-radius: 12px;
+        padding: 1rem 2rem;
+        color: white;
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    button:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    button:active {
+        transform: translateY(2px);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    button:first-child {
+        background: #00b894;
+        box-shadow: 0 0 15px #00b894, 0 0 30px #006f5c;
+    }
+
+    button:last-child {
+        background: #ff7675;
+        box-shadow: 0 0 15px #ff7675, 0 0 30px #c0392b;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 1rem;
+        font-size: 0.9rem;
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    @media (max-width: 600px) {
+        h1 {
+            font-size: 2rem;
+        }
+
+        button {
+            font-size: 1rem;
+            padding: 0.8rem 1.5rem;
+        }
+    }
+</style>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1>Welcome to the Mining Section Humans</h1>
+    <div class="button-container">
+        <button onclick="userSection()">User</button>
+        <button onclick="adminSection()">Admin</button>
+    </div>
+    <footer>
+        Built for a futuristic experience.
+    </footer><script>
+    function userSection() {
+        alert('Redirecting to User Section...');
+        // Add redirection logic here
+    }
+
+    function adminSection() {
+        alert('Redirecting to Admin Section...');
+        // Add redirection logic here
+    }
+</script>
+
+</body>
+  </html>
